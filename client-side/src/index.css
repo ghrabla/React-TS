@@ -24,7 +24,20 @@ header{
   font-weight: bold;
   cursor: pointer;
 }
-
+.check{
+  display: flex;
+  justify-content: space-around;
+}
+.submit{
+  margin-top: 2%;
+  width: 50%;
+  margin-left: 16%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
 .task{
   background-color: gray;
   color: white;
@@ -33,8 +46,25 @@ header{
   /* justify-content: center; */
   width: 25%;
   margin-left: 38%;
-  margin-top: 2%;
+  margin-top: 1%;
   border-radius: 5px;
+}
+form{
+  display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 37%;
+}
+label{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input{
+  padding: 10px;
+}
+.reminder{
+  background-color: green;
 }
 
 /* .task:hover{
