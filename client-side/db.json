@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "present studying",
+      "day": "friday , feb 9th",
+      "reminder": true
+    },
+    {
+      "text": "kamal nadii",
+      "day": "9/7 larbea",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
