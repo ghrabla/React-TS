@@ -1,9 +1,9 @@
-
+import { Link } from "react-router-dom"
 
 const about = () => {
   return (
     <div>this about page
-        <a href="/">go back bro</a>
+        <Link to="/">go bLinkck bro</Link>
     </div>
   )
 }
